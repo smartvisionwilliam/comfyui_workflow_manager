@@ -1,0 +1,25 @@
+{
+  "1": {
+    "name": "Workflow Group 1 - Generate non-character Scene",
+    "workflows": [
+      "D:/ComfyUI-hon/workflows/generate_none_character_scene.json",
+      "D:/ComfyUI-hon/workflows/image_to_video_wan2.2.json",
+      "D:/ComfyUI-hon/workflows/generate_sound_by_video.json"
+    ]
+  },
+  "2": {
+    "name": "Workflow Group 2: Generate One Character Scene",
+    "workflows": [
+      "D:/ComfyUI-hon/workflows/generate_one_character_scene.json",
+      "D:/ComfyUI-hon/workflows/image_to_video_wan2.2.json",
+      "D:/ComfyUI-hon/workflows/generate_sound_by_video.json"
+    ]
+  },
+  "3": {
+    "name": "Workflow Group 3 - Generate One Character Speaking Video",
+    "workflows": [
+      "D:/ComfyUI-hon/workflows/generate_one_character_scene.json",
+      "D:/ComfyUI-hon/workflows/generate_one_character_speaking_video.json"
+    ]
+  }
+}
